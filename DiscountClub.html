@@ -1,0 +1,250 @@
+<!--Lexie Star-->
+<!--Discount Club-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Discount Club</title>
+    <!--link to external stylesheet-->
+    <link href="CSS/MidtermStylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--header and navigation menu on every page-->
+    <div id="header">
+      <a href="HomePage.html"
+        ><img
+          src="Images/Logo_white_transparent.png"
+          alt="logo"
+          class="largeLogo"
+      /></a>
+      <div class="headContent">
+        <h1>Rooted Prints</h1>
+        <div id="menu">
+          <a href="HomePage.html"
+            ><button type="button" class="button">Home</button></a
+          >
+          <a href="Product1.html"
+            ><button type="button" class="button">Canvas Prints</button></a
+          >
+          <a href="Product2.html"
+            ><button type="button" class="button">Metal Prints</button></a
+          >
+          <a href="Promotions.html"
+            ><button type="button" class="button">
+              Upcoming Promotions
+            </button></a
+          >
+          <a href="DiscountClub.html"
+            ><button type="button" class="button">Discount Club</button></a
+          >
+          <a href="About.html"
+            ><button type="button" class="button">About</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <!--photo banner on top-->
+    <div class="photos">
+      <img
+        src="Images/ACS067621.jpg"
+        alt="monarch caterpillar on milkweed"
+        class="photoBanner"
+      />
+      <img
+        src="Images/Coffeeshop Vibes.jpg"
+        alt="string lights at coffeeshop"
+        class="photoBanner"
+      />
+      <img
+        src="Images/Plitvice Waterfall.jpg"
+        alt="waterfall at Plitvice Lakes National Park, Croatia"
+        class="photoBanner"
+      />
+      <img
+        src="Images/ACS005951.jpg"
+        alt="monarch butterfly on coneflower"
+        class="photoBanner"
+      />
+      <img
+        src="Images/DSC03596.jpg"
+        alt="Cathedral of Florence"
+        class="photoBanner"
+      />
+    </div>
+    <!--left navigation menu on every page-->
+    <div class="middleContent">
+      <div id="leftNav">
+        <a href="HomePage.html"
+          ><button type="button" class="button nav">Home</button></a
+        ><br />
+        <a href="Product1.html"
+          ><button type="button" class="button nav">Canvas Prints</button></a
+        ><br />
+        <a href="Product2.html"
+          ><button type="button" class="button nav">Metal Prints</button></a
+        ><br />
+        <a href="Promotions.html"
+          ><button type="button" class="button nav">
+            Upcoming Promotions
+          </button></a
+        ><br />
+        <a href="DiscountClub.html"
+          ><button type="button" class="button nav">Discount Club</button></a
+        ><br />
+        <a href="About.html"
+          ><button type="button" class="button nav">About</button></a
+        >
+      </div>
+      <!--dicsount club page specific content-->
+      <div id="content">
+        <h2 class="center">Discount Club</h2>
+        <p>Join the Rooted Prints Discount Club! Benefits include:</p>
+        <ul>
+          <li>Early access to new prints</li>
+          <li>Members-only free phone backgrounds</li>
+          <li>Free shipping on all orders</li>
+          <li>Weekly newsletters</li>
+        </ul>
+        <!--dicount club form-->
+        <form action="HomePage.html" method="get" name="DiscountClub">
+          <fieldset>
+            <legend class="center uppercase">Sign Up</legend>
+            <fieldset>
+              <legend>Your Info</legend>
+              <p>
+                First Name:
+                <input type="text" name="firstName" required />
+              </p>
+              <p>
+                Last Name:
+                <input type="text" name="lastName" required />
+              </p>
+
+              <p>
+                Email:
+                <input type="email" name="email" required />
+              </p>
+              <p>
+                Which state do you live in?<br />
+                <select name="states">
+                  <option value="AZ">AZ</option>
+                  <option value="CA">CA</option>
+                  <option value="CO">CO</option>
+                  <option value="FL">FL</option>
+                  <option value="IL">IL</option>
+                  <option value="MN" selected>MN</option>
+                  <option value="TN">TN</option>
+                  <option value="WI">WI</option>
+                </select>
+              </p>
+              <fieldset>
+                <legend>Log-In</legend>
+                <p>
+                  Username:
+                  <input type="text" name="username" required />
+                </p>
+                <p>
+                  Password
+                  <input type="password" name="password" required />
+                </p>
+              </fieldset>
+            </fieldset>
+            <fieldset>
+              <legend>Interests</legend>
+              <p>
+                Products of Interest:<br />
+                <input
+                  type="radio"
+                  name="products"
+                  value="canvasPrints"
+                  required
+                />Canvas Prints
+                <input
+                  type="radio"
+                  name="products"
+                  value="metalPrints"
+                  required
+                />Metal Prints
+                <input type="radio" name="products" value="both" required />Both
+              </p>
+              <p>
+                Favorite Color:<br />
+                <input type="radio" name="color" value="green" required />Green
+                <input type="radio" name="color" value="blue" required />Blue
+                <input
+                  type="radio"
+                  name="color"
+                  value="purple"
+                  required
+                />Purple
+                <input type="radio" name="color" value="pink" required />Pink
+                <input type="radio" name="color" value="red" required />Red
+                <input
+                  type="radio"
+                  name="color"
+                  value="orange"
+                  required
+                />Orange
+                <input
+                  type="radio"
+                  name="color"
+                  value="yellow"
+                  required
+                />Yellow
+              </p>
+            </fieldset>
+            <div class="submit">
+              <input
+                type="submit"
+                class="button submit nav"
+                name="submit"
+                value="Submit"
+              />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <!--related links on right side of every page-->
+      <!--open links in new tab-->
+      <div id="relatedLinks">
+        <h3>Related Links</h3>
+        <ul>
+          <li class="link">
+            <a href="https://rootedprints.darkroom.com/" target="_blank"
+              >Order Prints</a
+            >
+          </li>
+          <li class="link">
+            <a href="https://www.instagram.com/rooted_prints" target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li class="link">
+            <a href="https://www.facebook.com/rootedprints" target="_blank"
+              >Facebook</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--footer on every page-->
+    <div id="footer">
+      <div class="companyInfo">
+        <p>Rooted Prints</p>
+        <p>&copy; 2024</p>
+        <p class="italic">#PlantsNatureUrban</p>
+      </div>
+      <div class="logo">
+        <div class="centerlogo">
+          <a href="HomePage.html"
+            ><img src="Images/Logo_white_transparent.png" alt="logo"
+          /></a>
+        </div>
+      </div>
+      <div class="contactInfo">
+        <p>Saint Paul, MN 55107</p>
+        <p>lexiesrootedprints@gmail.com</p>
+        <p>(651) 307-1128</p>
+      </div>
+    </div>
+  </body>
+</html>

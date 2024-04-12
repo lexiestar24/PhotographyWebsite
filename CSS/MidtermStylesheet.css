@@ -1,0 +1,202 @@
+/*Lexie Star
+Mid-term Stylesheet*/
+
+/*generic settings*/
+body {
+  width: 95%;
+  margin: 0 auto; /*centers content*/
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3,
+h2,
+.uppercase {
+  text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
+}
+.button {
+  background-color: #e6e6e6;
+  color: black;
+  padding: 1%;
+  border: none;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: #828282;
+}
+.nav {
+  background-color: #01140e;
+  color: white;
+  padding: 2.5%;
+  margin: 1.5%;
+}
+/*link settings*/
+li.link {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+}
+a:link,
+a:active,
+a:visited {
+  color: #01140e;
+}
+.underline {
+  text-decoration: underline;
+}
+a:hover {
+  color: rgb(123, 123, 123);
+}
+/*header*/
+h1,
+#menu,
+.center {
+  text-align: center;
+}
+.largeLogo {
+  width: 200px;
+  height: 200px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.headContent {
+  width: 75%;
+}
+/*footer*/
+#header,
+#footer {
+  display: flex;
+  color: white;
+  background-color: #01140e;
+  width: 100%;
+}
+.companyInfo,
+.logo,
+.contactInfo {
+  width: 33.33%;
+}
+.companyInfo {
+  margin-left: 2%;
+}
+.centerlogo {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactInfo {
+  text-align: right;
+  margin-right: 2%;
+}
+/*content layout*/
+.photos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.photoBanner {
+  width: 19%;
+  height: 19%;
+  margin: 0.5%;
+}
+#leftNav,
+#relatedLinks {
+  width: 25%;
+  margin: 1%;
+}
+#relatedLinks {
+  text-align: right;
+}
+#content {
+  width: 50%;
+  margin: 1%;
+}
+.middleContent,
+.firstRow,
+.secondRow,
+.thirdRow,
+.promotions {
+  display: flex;
+}
+.info {
+  margin-top: 5%;
+  border-top: 2px solid #01140e;
+}
+/*map settings*/
+iframe {
+  width: 400px;
+  height: 300px;
+}
+/*table settings*/
+table {
+  border-width: 2px;
+  border-style: solid;
+  border-collapse: collapse;
+  border-color: #01140e;
+  width: 100%;
+}
+th {
+  padding: 6px 10px 6px 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+/*product settings*/
+.products {
+  margin: 0 auto;
+  width: 380px;
+  height: 380px;
+}
+.product1,
+.product2 {
+  margin: 2.5%;
+}
+.printsButton,
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.print {
+  width: 150%;
+  height: 150%;
+}
+/*form settings*/
+legend {
+  font-weight: bold;
+}
+/*upcoming promotions settings*/
+.promotions {
+  margin: 0 auto;
+}
+.promotion1,
+.promotion2 {
+  margin: 1%;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+}
+.promotion1 {
+  background-image: url(../Images/ACS067621.jpg);
+}
+.promotion2 {
+  background-image: url(../Images/ACS005951.jpg);
+}
+.white {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1%;
+  margin: 2%;
+}
+/*align promotions text to bottom*/
+.bottom {
+  margin-top: 179px;
+}
+.bottom2 {
+  margin-top: 158px;
+}
